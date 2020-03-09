@@ -84,5 +84,7 @@ p[6].textContent = siteContent["contact"]["phone"];
 p[7].textContent = siteContent["contact"]["email"];
 p[8].textContent = siteContent["footer"]["copyright"];
 
+const navcolor = document.querySelectorAll('a');
+navcolor[0].style.color = 'green' 
 
 
