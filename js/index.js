@@ -49,11 +49,9 @@ headerImg.setAttribute('src', siteContent["cta"]["img-src"]);
 let middleImg = document.getElementById("middle-img");
 middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
-
 //H1
 let h1 = document.querySelector("h1");
 h1.textContent = siteContent["cta"]["h1"];
-
 
 //BUTTON
 let button = document.querySelector("button");
@@ -63,9 +61,7 @@ button.textContent = siteContent["cta"]["button"];
 let anchors = document.querySelectorAll("a");
 for(let i = 0; i < anchors.length; i++){
   anchors[i].textContent = siteContent["nav"]["nav-item-"+(i+1)];
-  
 }
-
 
 //H4s
 let h4 = document.querySelectorAll("h4");
@@ -87,5 +83,6 @@ p[5].textContent = siteContent["contact"]["address"];
 p[6].textContent = siteContent["contact"]["phone"];
 p[7].textContent = siteContent["contact"]["email"];
 p[8].textContent = siteContent["footer"]["copyright"];
+
 
 
