@@ -118,3 +118,24 @@ contp2[2].textContent = siteContent['contact']['email'];
 let foot = document.querySelector('footer');
 foot.textContent = siteContent ['footer']['copyright'];
 
+//TASK 3
+let newthing = document.createElement('a');
+newthing.textContent ='Hello Friends'
+
+let othernewthing = document.querySelector('nav');
+othernewthing.appendChild(newthing);
+
+
+let secondthing = document.createElement('a');
+secondthing.textContent = 'Goodbye Friends'
+
+let secondothernewthing = document.querySelector('nav');
+secondothernewthing.prepend(secondthing);
+
+//GREEN
+ let colornav = document.querySelectorAll('nav a');
+ colornav.forEach(element => element.style.color ='green');
+
+ //STRETCH
+ let colorp = document.querySelectorAll('p');
+ colorp.forEach(element => element.style.color ='hotpink');
